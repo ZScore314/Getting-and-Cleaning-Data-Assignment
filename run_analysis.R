@@ -85,6 +85,7 @@ names(data_extract)<-gsub("gravity", "Gravity", names(data_extract))
 
 
 #Export tidy data set
+library(data.table)
 data_extract <- data.table(data_extract)
 
 tidy <- aggregate(. ~Subject + Activity, data_extract, mean)
