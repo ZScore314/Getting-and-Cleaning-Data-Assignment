@@ -33,3 +33,6 @@ The R script, run_analysis.R, does the following:
 * Appropriately labels the dataset with descriptive variable names
 * Creates a separate tidy dataset that consists of the mean and standard deviation of each variable for each subject and activity
 * The final dataset is exported to a new file called tidy.txt
+
+## Please see R script file for additional details on the analysis 
+
