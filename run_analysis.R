@@ -69,7 +69,7 @@ for (i in 1:6){
 data_extract$Activity <- as.factor(data_extract$Activity)
 data_extract$Subject <- as.factor(data_extract$Subject)
 
-# Rename deature variables so that they are more readable
+# Rename feature variables so that they are more readable
 names(data_extract)<-gsub("Acc", "Accelerometer", names(data_extract))
 names(data_extract)<-gsub("Gyro", "Gyroscope", names(data_extract))
 names(data_extract)<-gsub("BodyBody", "Body", names(data_extract))
